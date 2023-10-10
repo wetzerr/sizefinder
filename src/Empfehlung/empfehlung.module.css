@@ -1,0 +1,27 @@
+.empfG {
+    font-size: 20px;
+}
+.empfohleneGroesse {
+    width: 200px;
+}
+
+.poweredby {
+    font-size: 13px;
+    color: rgb(65, 65, 65);
+    margin-top: 272px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.closex {
+    height: 20px;
+    margin-left: 340px;
+    margin-top: 2%;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.closex {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 330px;
+    margin-top: 2%;
+    transition: all 0.6s;
+}
+
+.frage3 {
+    color: #202020;
+    cursor: default;
+    margin-top: 2.5%;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+  
+.antwortbuttonfrage3 {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.6s;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 30%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+  
+.antwortbuttonfrage3:hover {
+    color: rgb(114, 114, 114);
+    border-color: rgb(255, 255, 255);
+}
+
+
+/* BILDER */
+.schmalbild {
+    height: 135px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 1%;
+    transition: all 0.6s;
+    border-radius: 10px;
+}
+ 
+.durchschnittbild {
+    height: 135px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 1%;
+    transition: all 0.6s;
+    border-radius: 10px;
+}
+  
+.breitbild {
+    height: 135px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 1%;
+    transition: all 0.6s;
+    border-radius: 10px;
+}
+  
+  
+.schmalbild:hover {
+    border-color: #4d4d4d;
+}
+  
+.durchschnittbild:hover {
+    border-color: #4d4d4d;
+}
+  
+.breitbild:hover {
+    border-color: #4d4d4d;
+}
+
+.poweredby {
+    font-size: 13px;
+    color: rgb(65, 65, 65);
+    margin-top: 115px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
