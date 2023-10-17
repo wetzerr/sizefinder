@@ -166,11 +166,15 @@ function App() {
     quizContainer.style.display = 'none';
     setQuizAngezeigt(false);
   };
+  
 
   return (
    <>
       {!quizAngezeigt && (
-        <button className="start-text" onClick={handleTextKlick}>FINDE DEINE GRÖßE</button>
+        <div>
+          <button className="start-text" onClick={handleTextKlick}>DEINE PASSENDE GRÖßE</button>
+          <img src='/images/Kleiderbuegel.png' className='kleiderbuegel' onClick={handleTextKlick}></img>
+        </div>
       )}
       {quizAngezeigt && (
         <div className= 'io'>   
@@ -180,7 +184,7 @@ function App() {
                 {frageIndex > 0 && frageIndex < 5 && (
                   <div className='closex-backarrow'>
                     <img src='/images/back-arrow.webp' id='backarrow' onClick={zurückFrage} alt='zurück'></img>
-                    <img src='/images/closeX.webp' id='closex'  onClick={closeQuiz} alt='close'></img>
+                    <img src='/images/closeX.webp' id='closex' onClick={closeQuiz} alt='close'></img>
                   </div>
                 )}
                 {frageIndex === 0 && (
@@ -255,8 +259,8 @@ function App() {
                 {frageIndex === 4 && (
                     <div>
                       <h1 className={styles5.frage5}>DIESE PASSFORM BEVORZUGST DU</h1>
-                      <SliderPassform value={größe2} onChange={handleSliderChange1}/>
                       <button className={styles5.nächstefragebuttonSlider2} onClick={nächsteFrage}>WEITER</button>
+                      <SliderPassform value={größe2} onChange={handleSliderChange1}/>
                       <p className={styles5.poweredby}>Powered by <span className={styles5.span}>boehm.IO</span></p>
                     </div>
                 )}

@@ -10,7 +10,6 @@ function SliderPassform({ value, onChange}) {
     onChange(newValue);
   };
 
-
   return (
     <>
       <div className={styles.sliderContainer}>
